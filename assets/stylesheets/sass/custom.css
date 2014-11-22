@@ -5303,23 +5303,21 @@ p {
   margin-top: 50px;
   height: 450px;
   max-width: 100%;
-  background-color: grey;
-  margin-top: 20px; }
+  background-color: grey; }
 
 .col-md-6 {
   height: 200px;
   background-color: red;
-  padding-top: 1px;
+  padding-top: 1px; }
+
+.row {
   margin-top: 20px; }
 
-.row#botom-row {
-  margin-top: 20px; }
-
-.col-md-8 {
+.col-md-8#case-study {
   height: 200px;
   background-color: grey; }
 
-.col-md-4 {
+.col-md-4#case-study {
   height: 200px;
   background-color: green; }
 
