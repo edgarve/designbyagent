@@ -5360,5 +5360,7 @@ p.about {
   color: #aaa; }
 
 /* about.html css */
+#intro.container .col-md-12#main-header .col-md-6#about {
+  padding-left: 0; }
 
 /*# sourceMappingURL=custom.css.map */
