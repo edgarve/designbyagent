@@ -5360,7 +5360,23 @@ p.about {
   color: #aaa; }
 
 /* about.html css */
-#intro.container .col-md-12#main-header .col-md-6#about {
-  padding-left: 0; }
+/* Intro Text & List */
+#intro.container .col-md-12#main-header #about-subtext {
+  padding-left: 0;
+  margin-top: 20px; }
+  #intro.container .col-md-12#main-header #about-subtext .col-md-6#about {
+    padding-left: 0; }
+  #intro.container .col-md-12#main-header #about-subtext .col-md-5#about-cap {
+    font-family: "Arvo", sans-serif;
+    line-height: 180%;
+    color: #ADADAD; }
+    #intro.container .col-md-12#main-header #about-subtext .col-md-5#about-cap p.list-head {
+      font-family: "Montserrat", sans-serif;
+      padding-left: 20px; }
+
+/* Team Section */
+p.list-head {
+  font-family: "Montserrat", sans-serif;
+  color: #ADADAD; }
 
 /*# sourceMappingURL=custom.css.map */
