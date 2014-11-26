@@ -5425,9 +5425,7 @@ p.list-head {
   padding-top: 0.3em; }
 
 /* Map Section */
-.map {
-  height: 547px;
-  background-size: contain;
+#places {
   background-repeat: no-repeat;
   text-indent: -5000px;
   background-image: url("http://content.designbyagent.com/wp-content/uploads/2014/05/sc-map-places-shadow.jpg"); }
