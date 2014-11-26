@@ -5371,7 +5371,7 @@ p.about {
       text-decoration: none; }
 
 /* End Footer Items */
-/* about.html css */
+/* Start About Section */
 /* Intro Text & List */
 p {
   font-family: "Arvo", sans-serif;
@@ -5440,5 +5440,11 @@ p.list-head {
   color: #ADADAD; }
 
 /* End Contact Section */
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 749px) {
+  .col-md-5#about-cap {
+    padding-left: 0px; } }
 
 /*# sourceMappingURL=custom.css.map */
