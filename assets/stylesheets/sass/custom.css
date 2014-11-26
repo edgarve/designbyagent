@@ -5308,9 +5308,6 @@ a.navbar-brand {
   .navbar-default ul.nav li {
     font-family: "Montserrat", sans-serif; }
 
-#main-header {
-  padding-left: 70px; }
-
 h1 {
   font-size: 57px;
   font-family: "Montserrat", sans-serif;
@@ -5361,6 +5358,14 @@ p.about {
 
 /* about.html css */
 /* Intro Text & List */
+p {
+  font-family: "Arvo", sans-serif;
+  line-height: 180%;
+  color: #676464; }
+
+hr {
+  margin: 4em 0; }
+
 #intro.container .col-md-12#main-header #about-subtext {
   padding-left: 0;
   margin-top: 20px; }
@@ -5378,5 +5383,38 @@ p.about {
 p.list-head {
   font-family: "Montserrat", sans-serif;
   color: #ADADAD; }
+
+.photo {
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-indent: -5000px; }
+
+.photo#team-ally {
+  background-image: url("http://content.designbyagent.com/wp-content/uploads/2014/05/ally-circle.jpg"); }
+
+.photo#team-edgar {
+  background-image: url("http://content.designbyagent.com/wp-content/uploads/2014/05/edgar-circle.jpg"); }
+
+.bio {
+  margin-top: 2em; }
+
+.name {
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  font-size: 18px; }
+
+.title {
+  font-family: "Arvo", sans-serif;
+  color: #ADADAD;
+  padding-top: 0.3em; }
+
+/* Map Section */
+.map {
+  height: 547px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-indent: -5000px;
+  background-image: url("http://content.designbyagent.com/wp-content/uploads/2014/05/sc-map-places-shadow.jpg"); }
 
 /*# sourceMappingURL=custom.css.map */
