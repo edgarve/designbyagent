@@ -5314,7 +5314,8 @@ h1 {
   line-height: 120%;
   color: #000; }
   h1:hover, h1:focus, h1:active {
-    color: #f45353; }
+    color: #f45353;
+    text-decoration: none; }
 
 h2 {
   font-size: 37px;
@@ -5356,10 +5357,18 @@ p.about {
   margin: 40px 0 40px 0;
   color: #aaa; }
 
-.footer ul {
-  list-style-type: none; }
-.footer li {
-  display: inline; }
+.footer {
+  margin-top: 10em; }
+  .footer ul {
+    list-style-type: none; }
+  .footer li {
+    display: inline;
+    margin: 0 1.5em;
+    text-decoration: none;
+    color: #f45353;
+    font-family: "Montserrat", sans-serif; }
+    .footer li:hover, .footer li:focus, .footer li:active {
+      text-decoration: none; }
 
 /* End Footer Items */
 /* about.html css */
@@ -5422,5 +5431,16 @@ p.list-head {
   background-repeat: no-repeat;
   text-indent: -5000px;
   background-image: url("http://content.designbyagent.com/wp-content/uploads/2014/05/sc-map-places-shadow.jpg"); }
+
+/* End Map Section */
+/* Start Contact Section */
+#contact p.reach {
+  margin-top: 2em; }
+#contact p.about#email {
+  color: #ADADAD; }
+#contact p.about#phone {
+  color: #ADADAD; }
+
+/* End Contact Section */
 
 /*# sourceMappingURL=custom.css.map */
