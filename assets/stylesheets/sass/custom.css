@@ -5332,6 +5332,12 @@ p.about {
   color: #676464;
   line-height: 180%; }
 
+p2.about {
+  font-size: 14px;
+  font-family: "Arvo", sans-serif;
+  color: #ADADAD;
+  line-height: 180%; }
+
 .col-lg-12#featured-case-study {
   margin-top: 20px;
   height: 450px; }
@@ -5358,7 +5364,7 @@ p.about {
   color: #aaa; }
 
 .footer {
-  margin-top: 10em; }
+  margin-top: 5em; }
   .footer ul {
     list-style-type: none; }
   .footer li {
@@ -5391,8 +5397,10 @@ hr {
     line-height: 180%;
     color: #ADADAD; }
     #intro.container .col-md-12#main-header #about-subtext .col-md-5#about-cap p.list-head {
-      font-family: "Montserrat", sans-serif;
-      padding-left: 20px; }
+      font-family: "Montserrat", sans-serif; }
+    #intro.container .col-md-12#main-header #about-subtext .col-md-5#about-cap ol {
+      padding-left: 0;
+      list-style-position: inside; }
 
 /* Team Section */
 p.list-head {
@@ -5425,10 +5433,14 @@ p.list-head {
   padding-top: 0.3em; }
 
 /* Map Section */
-#places {
+#map-section #places .map {
+  text-indent: -5000px; }
+
+.map#map-image {
+  background-image: url("http://content.designbyagent.com/wp-content/uploads/2014/11/sc-maps.jpg");
+  background-size: contain;
   background-repeat: no-repeat;
-  text-indent: -5000px;
-  background-image: url("http://content.designbyagent.com/wp-content/uploads/2014/05/sc-map-places-shadow.jpg"); }
+  height: 35em; }
 
 /* End Map Section */
 /* Start Contact Section */
@@ -5443,8 +5455,22 @@ p.list-head {
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 /* Small devices (tablets, 768px and up) */
+@media (min-width: 726px) {
+  .col-md-5#about-cap {
+    padding-left: 0;
+    list-style-position: inside; } }
 @media (min-width: 749px) {
   .col-md-5#about-cap {
-    padding-left: 0px; } }
+    padding-left: 0px; }
+
+  #about-cap p.list-head {
+    padding-left: 0px; }
+
+  .map#map-image {
+    height: 33em; }
+
+  .col-md-5#about-cap ol {
+    padding-left: 0;
+    list-style-position: inside; } }
 
 /*# sourceMappingURL=custom.css.map */
