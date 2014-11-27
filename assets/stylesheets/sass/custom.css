@@ -5452,9 +5452,15 @@ p.list-head {
   color: #ADADAD; }
 
 /* End Contact Section */
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
-/* Small devices (tablets, 768px and up) */
+/* Start Project Grid Section */
+.work#lg-img {
+  text-indent: -5000px;
+  background-image: url("http://www.wallpapered.com/media/catalog/product/cache/1/thumbnail/f18554b7b32e17c781315742ceeae047/a/n/antique_map.jpg");
+  background-size: auto 100%;
+  background-repeat: no-repeat; }
+
+/* End Project Grid Section */
+/* Start Media Query */
 @media (min-width: 726px) {
   .col-md-5#about-cap {
     padding-left: 0;
