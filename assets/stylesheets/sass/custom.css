@@ -5453,11 +5453,11 @@ p.list-head {
 
 /* End Contact Section */
 /* Start Project Grid Section */
-.work#lg-img {
+.work#wide-img {
   text-indent: -5000px;
   background-image: url("http://www.wallpapered.com/media/catalog/product/cache/1/thumbnail/f18554b7b32e17c781315742ceeae047/a/n/antique_map.jpg");
-  background-size: auto 100%;
-  background-repeat: no-repeat; }
+  background-repeat: percentage;
+  width: 100%; }
 
 /* End Project Grid Section */
 /* Start Media Query */
