@@ -89,9 +89,10 @@ p2.about
 	margin-top: 5em
 	ul
 		list-style-type: none
+		padding: 0 !important
 	li
 		display: inline
-		margin: 0 1.5em
+		margin: 0 15px
 		text-decoration: none
 		color: #f45353
 		font-family: 'Montserrat', sans-serif
@@ -134,7 +135,6 @@ hr
 		ol
 			padding-left: 0
 			list-style-position: inside
-
 
 
 /* Team Section */
@@ -214,23 +214,21 @@ p.list-head
 /* End Project Grid Section */
 
 
+/* Start Media Query 970px */
 
-/* Start Media Query */
+@media (min-width: 970px)
 
-@media (min-width: 726px)
+.row#cases
+	margin-left: 0
 
-	.col-md-5#about-cap
-		padding-left: 0
-		list-style-position: inside
-
-@media (min-width: 749px)
+.container#intro
+	padding-left: 0
 
 	.col-md-5#about-cap
 		padding-left: 0px
 
 	#about-cap p.list-head
 		padding-left: 0px
-
 
 	.map#map-image
 		height: 33em
@@ -239,3 +237,17 @@ p.list-head
 		ol
 			padding-left: 0
 			list-style-position: inside
+
+#team-section
+	.bio
+		p.bio
+			margin-bottom: 4em
+
+p.list-head
+	margin-bottom: 30px
+
+#copyright p
+	margin-bottom: 30px
+
+#social 
+	margin-top: 3px

@@ -5366,10 +5366,11 @@ p2.about {
 .footer {
   margin-top: 5em; }
   .footer ul {
-    list-style-type: none; }
+    list-style-type: none;
+    padding: 0 !important; }
   .footer li {
     display: inline;
-    margin: 0 1.5em;
+    margin: 0 15px;
     text-decoration: none;
     color: #f45353;
     font-family: "Montserrat", sans-serif; }
@@ -5461,23 +5462,32 @@ p.list-head {
   margin-top: 30px; }
 
 /* End Project Grid Section */
-/* Start Media Query */
-@media (min-width: 726px) {
-  .col-md-5#about-cap {
-    padding-left: 0;
-    list-style-position: inside; } }
-@media (min-width: 749px) {
-  .col-md-5#about-cap {
-    padding-left: 0px; }
+/* Start Media Query 970px */
+.row#cases {
+  margin-left: 0; }
 
-  #about-cap p.list-head {
+.container#intro {
+  padding-left: 0; }
+  .container#intro .col-md-5#about-cap {
     padding-left: 0px; }
-
-  .map#map-image {
+  .container#intro #about-cap p.list-head {
+    padding-left: 0px; }
+  .container#intro .map#map-image {
     height: 33em; }
-
-  .col-md-5#about-cap ol {
+  .container#intro .col-md-5#about-cap ol {
     padding-left: 0;
-    list-style-position: inside; } }
+    list-style-position: inside; }
+
+#team-section .bio p.bio {
+  margin-bottom: 4em; }
+
+p.list-head {
+  margin-bottom: 30px; }
+
+#copyright p {
+  margin-bottom: 30px; }
+
+#social {
+  margin-top: 3px; }
 
 /*# sourceMappingURL=custom.css.map */
