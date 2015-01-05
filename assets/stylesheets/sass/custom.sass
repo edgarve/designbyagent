@@ -33,6 +33,7 @@ h1 a
 	&:active,
 		color: #f45353
 		text-decoration: none
+		transition: 0.3s ease
 
 h2
 	font-size: 37px
@@ -55,11 +56,15 @@ p2.about
 	color: #ADADAD
 	line-height: 180%
 
-.col-lg-12#featured-case-study
-	margin-top: 20px
-	height: 450px
-
-
+.col-lg-12#featured-case-study 
+	img
+		max-width: 100%
+		height: auto
+		&:hover,
+		&:focus,
+		&:active,
+			opacity: 0.8
+			transition: 0.5s ease
 
 .row
 	margin-top: 7em
