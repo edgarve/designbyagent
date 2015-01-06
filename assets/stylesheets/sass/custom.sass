@@ -11,17 +11,24 @@ a.navbar-brand
 	width: 36px
 	height: 44px
 	text-indent: -5000px
+	margin-right: 70px
 
 .navbar-default
-	background: rgba(255, 255, 255, .5)
+	background: rgba(255, 255, 255, .9)
 	border-style: none
 	padding: 15px
 
-	.collapse.navbar-collapse
-		margin-left: 70px
-
 	ul.nav li
 		font-family: 'Montserrat', sans-serif
+
+		a
+			color: #777777
+			&:hover,
+			&:focus,
+			&:active,
+				text-decoration: none
+				color: #f45353
+				transition: 0.3s ease
 
 h1 a
 	font-size: 47px
@@ -64,7 +71,7 @@ p2.about
 		&:focus,
 		&:active,
 			opacity: 0.8
-			transition: 0.5s ease
+			transition: 0.3s ease
 
 .row
 	margin-top: 7em
@@ -87,12 +94,17 @@ p2.about
 		display: inline
 		margin: 0 15px
 		text-decoration: none
-		color: #f45353
+		color: #ADADAD
 		font-family: 'Montserrat', sans-serif
-		&:hover,
-		&:focus,
-		&:active,
-			text-decoration: none
+		
+		a
+			color: #ADADAD
+			&:hover,
+			&:focus,
+			&:active,
+				text-decoration: none
+				color: #f45353
+				transition: 0.3s ease
 
 /* End Footer Items */
 
@@ -210,6 +222,13 @@ p.list-head
 /* Start Media Query 970px */
 
 @media (min-width: 970px)
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form
+	border: none
+
+.navbar-default .collapse.navbar-collapse
+	padding-left: 0
+	margin-left: 0
 
 .row#cases
 	margin-left: 0

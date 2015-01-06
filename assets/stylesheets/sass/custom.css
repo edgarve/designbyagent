@@ -5297,16 +5297,21 @@ a.navbar-brand {
   margin-top: 5px;
   width: 36px;
   height: 44px;
-  text-indent: -5000px; }
+  text-indent: -5000px;
+  margin-right: 70px; }
 
 .navbar-default {
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.9);
   border-style: none;
   padding: 15px; }
-  .navbar-default .collapse.navbar-collapse {
-    margin-left: 70px; }
   .navbar-default ul.nav li {
     font-family: "Montserrat", sans-serif; }
+    .navbar-default ul.nav li a {
+      color: #777777; }
+      .navbar-default ul.nav li a:hover, .navbar-default ul.nav li a:focus, .navbar-default ul.nav li a:active {
+        text-decoration: none;
+        color: #f45353;
+        transition: 0.3s ease; }
 
 h1 a {
   font-size: 47px;
@@ -5344,7 +5349,7 @@ p2.about {
   height: auto; }
   .col-lg-12#featured-case-study img:hover, .col-lg-12#featured-case-study img:focus, .col-lg-12#featured-case-study img:active {
     opacity: 0.8;
-    transition: 0.5s ease; }
+    transition: 0.3s ease; }
 
 .row {
   margin-top: 7em; }
@@ -5364,10 +5369,14 @@ p2.about {
     display: inline;
     margin: 0 15px;
     text-decoration: none;
-    color: #f45353;
+    color: #ADADAD;
     font-family: "Montserrat", sans-serif; }
-    .footer li:hover, .footer li:focus, .footer li:active {
-      text-decoration: none; }
+    .footer li a {
+      color: #ADADAD; }
+      .footer li a:hover, .footer li a:focus, .footer li a:active {
+        text-decoration: none;
+        color: #f45353;
+        transition: 0.3s ease; }
 
 /* End Footer Items */
 /* Start About Section */
@@ -5455,6 +5464,13 @@ p.list-head {
 
 /* End Project Grid Section */
 /* Start Media Query 970px */
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border: none; }
+
+.navbar-default .collapse.navbar-collapse {
+  padding-left: 0;
+  margin-left: 0; }
+
 .row#cases {
   margin-left: 0; }
 
