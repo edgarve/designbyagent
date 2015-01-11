@@ -5357,6 +5357,11 @@ p2.about {
 .row {
   margin-top: 1em; }
 
+#case-study {
+  height: 20em;
+  width: auto;
+  background-color: black; }
+
 /* Start Footer Items */
 #copyright {
   width: 100%;
