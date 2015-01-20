@@ -5287,6 +5287,11 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+.container#mobile-web {
+  margin-top: 80px; }
+  .container#mobile-web #img-text {
+    padding-top: 20px; }
+
 body {
   padding-top: 150px; }
 
