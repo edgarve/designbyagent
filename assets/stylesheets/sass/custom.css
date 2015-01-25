@@ -5292,106 +5292,6 @@ button.close {
   .container#mobile-web #img-text {
     padding-top: 20px; }
 
-body {
-  padding-top: 150px; }
-
-a.navbar-brand {
-  background-image: url("http://media.virbcdn.com/images/96/5ac9756e6734bd47-agent-icon.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-top: 5px;
-  width: 36px;
-  height: 44px;
-  text-indent: -5000px;
-  margin-right: 70px; }
-
-.navbar-default {
-  background: rgba(255, 255, 255, 0.9);
-  border-style: none;
-  padding: 15px; }
-  .navbar-default ul.nav li {
-    font-family: "Montserrat", sans-serif; }
-    .navbar-default ul.nav li a {
-      color: #777777; }
-      .navbar-default ul.nav li a:hover, .navbar-default ul.nav li a:focus, .navbar-default ul.nav li a:active {
-        text-decoration: none;
-        color: #f45353;
-        transition: 0.3s ease; }
-
-h1 a {
-  font-size: 47px;
-  font-family: "Montserrat", sans-serif;
-  line-height: 120%;
-  color: #000; }
-  h1 a:hover, h1 a:focus, h1 a:active {
-    color: #f45353;
-    text-decoration: none;
-    transition: 0.3s ease; }
-
-h1#home-header {
-  padding-bottom: 3em; }
-
-h2 {
-  font-size: 37px;
-  font-family: "Montserrat", sans-serif;
-  color: #000;
-  line-height: 140%; }
-
-.col-mid-8#about {
-  padding-left: 0px; }
-
-p.about {
-  font-size: 18px;
-  font-family: "Arvo", sans-serif;
-  color: #676464;
-  line-height: 180%; }
-
-p2.about {
-  font-size: 14px;
-  font-family: "Arvo", sans-serif;
-  color: #ADADAD;
-  line-height: 180%; }
-
-.col-lg-12#featured-case-study img {
-  max-width: 100%;
-  height: auto; }
-  .col-lg-12#featured-case-study img:hover, .col-lg-12#featured-case-study img:focus, .col-lg-12#featured-case-study img:active {
-    opacity: 0.8;
-    transition: 0.3s ease; }
-
-.row {
-  margin-top: 1em; }
-
-#case-study {
-  height: 20em;
-  width: auto;
-  background-color: black; }
-
-/* Start Footer Items */
-#copyright {
-  width: 100%;
-  margin: 40px 0 40px 0;
-  color: #aaa; }
-
-.footer {
-  margin-top: 5em; }
-  .footer ul {
-    list-style-type: none;
-    padding: 0 !important; }
-  .footer li {
-    display: inline;
-    margin: 0 15px;
-    text-decoration: none;
-    color: #ADADAD;
-    font-family: "Montserrat", sans-serif; }
-    .footer li a {
-      color: #ADADAD; }
-      .footer li a:hover, .footer li a:focus, .footer li a:active {
-        text-decoration: none;
-        color: #f45353;
-        transition: 0.3s ease; }
-
-/* End Footer Items */
 /* Start About Section */
 /* Intro Text & List */
 p {
@@ -5467,6 +5367,112 @@ p.list-head {
   color: #ADADAD; }
 
 /* End Contact Section */
+body {
+  padding-top: 150px; }
+
+a.navbar-brand {
+  background-image: url("http://media.virbcdn.com/images/96/5ac9756e6734bd47-agent-icon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 5px;
+  width: 36px;
+  height: 44px;
+  text-indent: -5000px;
+  margin-right: 70px; }
+
+.navbar-default {
+  background: rgba(255, 255, 255, 0.9);
+  border-style: none;
+  padding: 15px; }
+  .navbar-default ul.nav li {
+    font-family: "Montserrat", sans-serif; }
+    .navbar-default ul.nav li a {
+      color: #777777; }
+      .navbar-default ul.nav li a:hover, .navbar-default ul.nav li a:focus, .navbar-default ul.nav li a:active {
+        text-decoration: none;
+        color: #f45353;
+        transition: 0.3s ease; }
+
+h1 a {
+  font-size: 47px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 120%;
+  color: #000; }
+  h1 a:hover, h1 a:focus, h1 a:active {
+    color: #f45353;
+    text-decoration: none;
+    transition: 0.3s ease; }
+
+h1#home-header {
+  padding-bottom: 3em; }
+
+h2 {
+  font-size: 37px;
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  line-height: 140%; }
+
+.col-mid-8#about {
+  padding-left: 0px; }
+
+p.about {
+  font-size: 18px;
+  font-family: "Arvo", sans-serif;
+  color: #676464;
+  line-height: 180%; }
+
+p2.about {
+  font-size: 14px;
+  font-family: "Arvo", sans-serif;
+  color: #ADADAD;
+  line-height: 180%; }
+
+.col-lg-12#featured-case-study img {
+  max-width: 100%;
+  height: auto; }
+  .col-lg-12#featured-case-study img:hover, .col-lg-12#featured-case-study img:focus, .col-lg-12#featured-case-study img:active {
+    opacity: 0.8;
+    transition: 0.3s ease; }
+
+.row {
+  margin-top: 1em; }
+
+.container.col-xs-12#bokeh img {
+  max-width: 100%; }
+
+.container.container.col-xs-12#get-talent img {
+  max-width: 100%; }
+
+#case-study {
+  height: 20em;
+  width: auto;
+  background-color: black; }
+
+/* Start Footer Items */
+#copyright {
+  width: 100%;
+  margin: 40px 0 40px 0;
+  color: #aaa; }
+
+.footer {
+  margin-top: 5em; }
+  .footer ul {
+    list-style-type: none;
+    padding: 0 !important; }
+  .footer li {
+    display: inline;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ADADAD;
+    font-family: "Montserrat", sans-serif; }
+    .footer li a {
+      color: #ADADAD; }
+      .footer li a:hover, .footer li a:focus, .footer li a:active {
+        text-decoration: none;
+        color: #f45353;
+        transition: 0.3s ease; }
+
+/* End Footer Items */
 /* Start Project Grid Section */
 #work-top {
   margin-top: 50px; }

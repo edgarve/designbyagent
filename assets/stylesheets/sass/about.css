@@ -1,0 +1,77 @@
+/* Start About Section */
+/* Intro Text & List */
+p {
+  font-family: "Arvo", sans-serif;
+  line-height: 180%;
+  color: #676464; }
+
+hr {
+  margin: 4em 0; }
+
+#intro.container .col-md-12#main-header #about-subtext {
+  padding-left: 0;
+  margin-top: 20px; }
+  #intro.container .col-md-12#main-header #about-subtext .col-md-6#about {
+    padding-left: 0; }
+  #intro.container .col-md-12#main-header #about-subtext .col-md-5#about-cap {
+    font-family: "Arvo", sans-serif;
+    line-height: 180%;
+    color: #ADADAD; }
+    #intro.container .col-md-12#main-header #about-subtext .col-md-5#about-cap p.list-head {
+      font-family: "Montserrat", sans-serif; }
+    #intro.container .col-md-12#main-header #about-subtext .col-md-5#about-cap ol {
+      padding-left: 0;
+      list-style-position: inside; }
+
+/* Team Section */
+p.list-head {
+  font-family: "Montserrat", sans-serif;
+  color: #ADADAD; }
+
+.photo {
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-indent: -5000px; }
+
+.photo#team-ally {
+  background-image: url("http://content.designbyagent.com/wp-content/uploads/2014/05/ally-circle.jpg"); }
+
+.photo#team-edgar {
+  background-image: url("http://content.designbyagent.com/wp-content/uploads/2014/05/edgar-circle.jpg"); }
+
+.bio {
+  margin-top: 2em; }
+
+.name {
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  font-size: 18px; }
+
+.title {
+  font-family: "Arvo", sans-serif;
+  color: #ADADAD;
+  padding-top: 0.3em; }
+
+/* Map Section */
+#map-section #places .map {
+  text-indent: -5000px; }
+
+.map#map-image {
+  background-image: url("http://content.designbyagent.com/wp-content/uploads/2014/11/sc-maps.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 35em; }
+
+/* End Map Section */
+/* Start Contact Section */
+#contact p.reach {
+  margin-top: 2em; }
+#contact p.about#email {
+  color: #ADADAD; }
+#contact p.about#phone {
+  color: #ADADAD; }
+
+/* End Contact Section */
+
+/*# sourceMappingURL=about.css.map */
