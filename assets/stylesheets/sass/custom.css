@@ -5427,21 +5427,15 @@ p2.about {
   color: #ADADAD;
   line-height: 180%; }
 
-.col-lg-12#featured-case-study img {
+img {
   max-width: 100%;
   height: auto; }
-  .col-lg-12#featured-case-study img:hover, .col-lg-12#featured-case-study img:focus, .col-lg-12#featured-case-study img:active {
+  img:hover, img:focus, img:active {
     opacity: 0.8;
     transition: 0.3s ease; }
 
 .row {
   margin-top: 1em; }
-
-.container.col-xs-12#bokeh img {
-  max-width: 100%; }
-
-.container.container.col-xs-12#get-talent img {
-  max-width: 100%; }
 
 #case-study {
   height: 20em;
