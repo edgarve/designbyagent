@@ -5415,6 +5415,9 @@ h2 {
 .col-mid-8#about {
   padding-left: 0px; }
 
+.container .row#sub-cases #other-case {
+  marting-top: 2em; }
+
 p.about {
   font-size: 18px;
   font-family: "Arvo", sans-serif;
@@ -5428,19 +5431,10 @@ p2.about {
   line-height: 180%; }
 
 img {
-  max-width: 100%;
-  height: auto; }
+  max-width: 100%; }
   img:hover, img:focus, img:active {
     opacity: 0.8;
     transition: 0.3s ease; }
-
-.row {
-  margin-top: 1em; }
-
-#case-study {
-  height: 20em;
-  width: auto;
-  background-color: black; }
 
 /* Start Footer Items */
 #copyright {
@@ -5467,24 +5461,12 @@ img {
         transition: 0.3s ease; }
 
 /* End Footer Items */
-/* Start Project Grid Section */
-#work-top {
-  margin-top: 50px; }
-
-.work img {
-  max-width: 100%;
-  margin-top: 30px; }
-
-/* End Project Grid Section */
 /* Start Media Query 970px */
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
   border: none; }
 
 .navbar-default .collapse.navbar-collapse {
   padding-left: 0;
-  margin-left: 0; }
-
-.row#cases {
   margin-left: 0; }
 
 .container#intro {
