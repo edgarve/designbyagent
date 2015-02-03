@@ -5415,8 +5415,8 @@ h2 {
 .col-mid-8#about {
   padding-left: 0px; }
 
-.container .row#sub-cases #other-case {
-  marting-top: 2em; }
+.col-lg-4#other-case {
+  margin-top: 2em; }
 
 p.about {
   font-size: 18px;
