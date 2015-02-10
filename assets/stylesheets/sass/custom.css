@@ -5432,9 +5432,13 @@ p2.about {
 
 img {
   max-width: 100%; }
-  img:hover, img:focus, img:active {
-    opacity: 0.8;
-    transition: 0.3s ease; }
+
+.work img {
+  margin-top: 2em; }
+
+#cases img:hover, #cases img:focus, #cases img:active {
+  opacity: 0.8;
+  transition: 0.3s ease; }
 
 /* Start Footer Items */
 #copyright {
